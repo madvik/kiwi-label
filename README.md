@@ -51,7 +51,7 @@ REQUIREMENTS
 
 ### TCPDF ###
 
-[TCPDF](http://www.tcpdf.org/ "TCPDF") : lastest tested v 6.0.044).
+[TCPDF](http://www.tcpdf.org/ "TCPDF") : lastest tested v 6.0.044.
 
 ### Build Requirements ###
 
