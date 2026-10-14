@@ -5,7 +5,7 @@
  * @copyright 2006-2014 Madvic - madvic@gmail.com
  * @link http://kiwi.madvic.net/
  * @license http://www.gnu.org/copyleft/lesser.html LGPL
- * @version   1.15
+ * @version   1.16
  */
 
  abstract class label extends tcpdf{

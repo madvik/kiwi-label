@@ -3,40 +3,44 @@ Auteur		:	Ludovic RIAUDEL
 Copyright	:	Ludovic RIAUDEL - <http://madvic.net/>
 Site web	:	<http://kiwi.madvic.net/>
 
-Description	:	Classe hÈritant de TCPDF permettant ‡ partir d'un fichier de configuration d'imprimer des Ètiquettes.
+Description	:	Classe h√©ritant de TCPDF permettant √† partir d'un fichier de configuration d'imprimer des √©tiquettes.
 
+Version 1.16	:	14/10/2026 - Alignement sur la copie de production
+* Aucun changement de code par rapport √† la version 1.13 utilis√©e en production : le diff r√©el entre 1.13 et 1.15 ne concernait que l'en-t√™te (@link, @version).
+* Mise √† jour de l'en-t√™te de la classe : @version 1.16, lien du site http://kiwi.madvic.net/.
+* TCPDF : la version de r√©f√©rence passe de 6.0.044 √† 6.6.2, version utilis√©e en production.
 Version 1.15	:	13/01/2014
 * Ajout README + LICENSE
-* AmÈlioration des exemples et crÈation d'un fichier index.php prÈsentant les exemples.
+* Am√©lioration des exemples et cr√©ation d'un fichier index.php pr√©sentant les exemples.
 
 Version 1.13	:	16/11/2013
-* Mise ‡ jour vers php 5.3
+* Mise √† jour vers php 5.3
 
 Version 1.10	:	02/09/2010 - Ajout
-* Ajout de la mÈthode privÈe exitLabel() qui permet l'affichage des erreurs et une fin sans erreur php.
+* Ajout de la m√©thode priv√©e exitLabel() qui permet l'affichage des erreurs et une fin sans erreur php.
 * Passage de la classe en abstraite
-* Ajout d'un test sur le paramËtre $label_id, (si le paramËtre est dÈfini ou non).
-* Modification de la classe pour l'adapter ‡ la version 5 de TCPDF (probleme de largeur et hauteur de page).
+* Ajout d'un test sur le param√®tre $label_id, (si le param√®tre est d√©fini ou non).
+* Modification de la classe pour l'adapter √† la version 5 de TCPDF (probleme de largeur et hauteur de page).
 
 Version 1.05	:	29/11/2009 - Modification
-* Modification de l'appel ‡ la classe , passage d'un paramËtre pour le fichier de configuration des Ètiquettes (labels.xml).
+* Modification de l'appel √† la classe , passage d'un param√®tre pour le fichier de configuration des √©tiquettes (labels.xml).
 
 Version 1.04	:	25/09/2009 - Correction
-* Correction pour l'ajout d'un decalage (valeur NULL plutot que '' afin que le test fonctionne et que le dÈcor ne s'affiche pas)
+* Correction pour l'ajout d'un decalage (valeur NULL plutot que '' afin que le test fonctionne et que le d√©cor ne s'affiche pas)
 * Divers correction pour le bon fonctionnement de la prise en charge de la couleur des bordures.
 
 Version 1.03	:	03/08/2009 - Ajout
-* Modification de la classe, prise en compte du paramËtre 'orientation', ainsi que 'bordercolor' (codage html ex : #AD8DF7) et 'borderwidth' dans le fichier de configuration labels.xml.
+* Modification de la classe, prise en compte du param√®tre 'orientation', ainsi que 'bordercolor' (codage html ex : #AD8DF7) et 'borderwidth' dans le fichier de configuration labels.xml.
 
-Version 1.02	:	13/05/2009 - Mise ‡ jour
-* ProblËme de test sur des variables de type float dans la classe label
+Version 1.02	:	13/05/2009 - Mise √† jour
+* Probl√®me de test sur des variables de type float dans la classe label
 
 Version 1.01	:	27/02/2009 - Correction
-* Correctif : Le dÈcalage ne s'imprime pas.
-* Ajout d'un paramËtre border, afin de pouvoir imprimer les bordures desÈtiquettes.
+* Correctif : Le d√©calage ne s'imprime pas.
+* Ajout d'un param√®tre border, afin de pouvoir imprimer les bordures des√©tiquettes.
 
-Version 1.00	:	01/02/2009 - Refonte complËte du projet
-* Application de la classe TCPDF pour la gÈnÈration des PDF
+Version 1.00	:	01/02/2009 - Refonte compl√®te du projet
+* Application de la classe TCPDF pour la g√©n√©ration des PDF
 
 
 

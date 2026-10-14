@@ -7,7 +7,7 @@ PDF tool for printing labels.
 DESCRIPTION
 -----------
 
-@Version : 1.15 - 13/01/2014
+@Version : 1.16 - 14/10/2026
 
 __Class__
 
@@ -19,17 +19,16 @@ __Label configuration file__ :
 
 __Changelog__ :
 
-	/label/changelog.txt
+	/label/CHANGELOG.txt
 	
 __Exemples directory__ :
 
 	/label/examples/
 
-__[TCPDF](http://www.tcpdf.org/ "TCPDF") directory__ : lastest tested v 6.0.044) :
+__[TCPDF](http://www.tcpdf.org/ "TCPDF") directory__ : lastest tested v 6.6.2) :
 
     /tcpdf/
     		- config
-    		- examples
     		- fonts
     		- include
     		- tools
@@ -51,12 +50,12 @@ REQUIREMENTS
 
 ### TCPDF ###
 
-[TCPDF](http://www.tcpdf.org/ "TCPDF") : lastest tested v 6.0.044.
+[TCPDF](http://www.tcpdf.org/ "TCPDF") : lastest tested v 6.6.2.
 
 ### Build Requirements ###
 
-PHP5+
-Tested with PHP 5.4.2
+PHP 5.3+
+Tested with PHP 8.2
 
 ### PHP Module Requirements ###
 
